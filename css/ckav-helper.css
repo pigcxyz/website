@@ -1002,7 +1002,7 @@ INDEX
 .ckav-body .color-text-default,
 .ckav-body .typo-light .color-text-.default,
 .ckav-body .color-text-default:hover {
-  color: #f199bb;
+  color: #ffca6d;
 }
 .ckav-body .color-text-primary,
 .ckav-body .typo-light .color-text-.primary,
@@ -1030,7 +1030,7 @@ INDEX
   color: #fff;
 }
 .ckav-body .color-hov-text-default:hover {
-  color: #f199bb;
+  color: #ffca6d;
 }
 .ckav-body .color-hov-text-primary:hover {
   color: #FA5A00;
@@ -1049,7 +1049,7 @@ INDEX
 }
 .ckav-body .color-link-default,
 .ckav-body a.color-link-default {
-  color: #f199bb;
+  color: #ffca6d;
 }
 .ckav-body .color-link-primary,
 .ckav-body a.color-link-primary {
@@ -1126,7 +1126,7 @@ INDEX
   background-repeat: no-repeat;
 }
 .ckav-body .bgcolor-default {
-  background-color: #f199bb;
+  background-color: #ffca6d;
 }
 .ckav-body .bgcolor-primary {
   background-color: #FA5A00;
@@ -1147,7 +1147,7 @@ INDEX
   background-color: #fff;
 }
 .ckav-body .hov-bgcolor-default:hover {
-  background-color: #f199bb;
+  background-color: #ffca6d;
 }
 .ckav-body .hov-bgcolor-primary:hover {
   background-color: #FA5A00;
@@ -1574,7 +1574,7 @@ INDEX
 .ckav-body .color-border-default.row-sep > [class*="col-"],
 .ckav-body .color-border-default.form-control,
 .ckav-body .color-border-default {
-  border-color: #f199bb;
+  border-color: #ffca6d;
 }
 .ckav-body .color-border-primary,
 .ckav-body .color-border-primary.row-border,
@@ -1623,7 +1623,7 @@ INDEX
 .ckav-body .color-hov-border-default:hover.form-control,
 .ckav-body .color-hov-border-default:focus.form-control,
 .ckav-body .color-hov-border-default:hover {
-  border-color: #f199bb;
+  border-color: #ffca6d;
 }
 .ckav-body .color-hov-border-primary:hover,
 .ckav-body .color-hov-border-primary:hover.row-border,
