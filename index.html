@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META INFO -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+<!-- Primary Meta Tags -->
+<title>PigClassic - Fully Decentralized
+</title>
+<meta name="title" content="PigClassic - Fully Decentralized
+">
+<meta name="description" content="PIGC, like the original, runs on Binance Smart Chain. As the community, we knew this would be an instant classic because we wanted to keep all of its best characteristics including reflections: it has the same much-missed deflationary black hole that exponentially reduces the supply and the same liquidity pool-adding feature to keep it on an ever-growing trajectory to absorb whale plays.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="./">
+<meta property="og:title" content="PigClassic - Fully Decentralized
+">
+<meta property="og:description" content="PIGC, like the original, runs on Binance Smart Chain. As the community, we knew this would be an instant classic because we wanted to keep all of its best characteristics including reflections: it has the same much-missed deflationary black hole that exponentially reduces the supply and the same liquidity pool-adding feature to keep it on an ever-growing trajectory to absorb whale plays.">
+<meta property="og:image" content="images/cover.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="./">
+<meta property="twitter:title" content="PigClassic - Fully Decentralized
+">
+<meta property="twitter:description" content="PIGC, like the original, runs on Binance Smart Chain. As the community, we knew this would be an instant classic because we wanted to keep all of its best characteristics including reflections: it has the same much-missed deflationary black hole that exponentially reduces the supply and the same liquidity pool-adding feature to keep it on an ever-growing trajectory to absorb whale plays.">
+<meta property="twitter:image" content="images/cover.png">
+    <meta name="author" content="PIGC">
+
+    <!-- META VIEW PORT -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+    <!-- FAVICONS -->
+	<link rel="apple-touch-icon" sizes="57x57" href="images/fav/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="images/fav/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="images/fav/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="images/fav/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="images/fav/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="images/fav/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="images/fav/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="images/fav/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/fav/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="images/fav/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="images/fav/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/fav/favicon-16x16.png">
+<link rel="manifest" href="images/fav/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+    <!-- WEB FONT-FAMILY -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&display=swap" rel="stylesheet">
+
+    <!-- VENDOR FONT ICONS CSS -->
+    <link rel="stylesheet" href="fonticons/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="fonticons/et-line/et-line-font.css">
+    <link rel="stylesheet" href="fonticons/material-webfont/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="fonticons/pixeden/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="fonticons/simplelineicons/css/simple-line-icons.css">
+
+    <!-- COMMON VENDOR CSS -->
+    <link rel="stylesheet" href="vendor/animate-css/animate.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/sweetalert/sweetalert2.min.css">
+    <link rel="stylesheet" href="vendor/jarallax/jarallax.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
+    
+    <!-- PAGE SPECIFIC VENDOR CSS -->
+
+    <!--  COMMON CSS -->
+    <link rel="stylesheet" href="css/ckav-main.css">
+    <link rel="stylesheet" href="css/ckav-elements.css">
+    <link rel="stylesheet" href="css/ckav-helper.css">
+    <link rel="stylesheet" href="css/ckav-responsive.css">
+<style>
+    	
+.accordion .accordion-item {
+  border-bottom: 1px solid #e5e5e5;
+}
+.accordion .accordion-item button[aria-expanded=true] {
+  border-bottom: 1px solid #03b5d2;
+}
+.accordion button {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  padding: 1em 0;
+  color: #f199bb;
+  font-size: 1.15rem;
+  font-weight: 400;
+  border: none;
+  background: none;
+  outline: none;
+}
+.accordion button:hover, .accordion button:focus {
+  cursor: pointer;
+  color: #03b5d2;
+}
+.accordion button:hover::after, .accordion button:focus::after {
+  cursor: pointer;
+  color: #03b5d2;
+  border: 1px solid #03b5d2;
+}
+.accordion button .accordion-title {
+  padding: 1em 1.5em 1em 0;
+}
+.accordion button .icon {
+  display: inline-block;
+  position: absolute;
+  top: 18px;
+  right: 0;
+  width: 22px;
+  height: 22px;
+  border: 1px solid;
+  border-radius: 22px;
+}
+.accordion button .icon::before {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 9px;
+  left: 5px;
+  width: 10px;
+  height: 2px;
+  background: currentColor;
+}
+.accordion button .icon::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 9px;
+  width: 2px;
+  height: 10px;
+  background: currentColor;
+}
+.accordion button[aria-expanded=true] {
+  color: #03b5d2;
+}
+.accordion button[aria-expanded=true] .icon::after {
+  width: 0;
+}
+.accordion button[aria-expanded=true] + .accordion-content {
+  opacity: 1;
+  max-height: 9em;
+  transition: all 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: opacity 200ms linear, max-height 200ms linear;
+  will-change: opacity, max-height;
+}
+.accordion .accordion-content p {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 2em 0;
+}
+
+
+
+@font-face {
+    font-family: 'missbakerregular';
+    src: url('missbaker-webfont.woff2') format('woff2'),
+         url('missbaker-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.navigation-a .text{
+    display: block;
+    text-align: center;
+}
+.navigation-a .text > img {
+    width: 40px;
+}
+.navigation-a .icon{
+    background-color: white;
+}
+@font-face {
+    font-family: 'missbakerregular';
+    src: url('fonts/missbaker-webfont.woff2') format('woff2'),
+         url('fonts/missbaker-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* #f199bb */
+		h2.heading, .button, .c-text, .pigcf
+        {
+				font-family: 'missbakerregular' !important;
+							}
+</style>
+    <!--  SPECIFIC  CSS -->
+
+    <!--  THEME CSS -->
+
+    <!--  USER CUSTOM CSS -->
+    <link rel="stylesheet" href="css/-custom.css">
+</head>
+
+<body class="ckav-body tooltip-light">
+
+    <!--
+    ************************************************************
+    * PAGE LOADER
+    *************************************************************
+    -->
+    <div id="loader">
+        <div class="load-three-bounce">
+            <div class="load-child bounce1"></div>
+            <div class="load-child bounce2"></div>
+            <div class="load-child bounce3"></div>
+        </div>
+    </div>
+    <!-- ************** END : PAGE LOADER **************  -->
+
+
+    <div class="ckav-body">
+
+        <!--
+        ************************************************************
+        * HEADER
+        *************************************************************
+        -->
+        <header class="header-area intro-element">
+            <div class="container-fluid">
+
+                <!-- LOGO -->
+                <div class="logo-wrp flex-cc">
+                    <a href="#" class="logo-link width-px-120" data-ckav-smd="width-px-60">
+                        <img src="./images/logo.png" alt="logo">
+                    </a>
+                </div>
+
+            </div>
+        </header>
+        <!-- ************** END : HEADER **************  -->
+
+        <!--
+        ************************************************************
+        * NAVIGATION
+        *************************************************************
+        -->
+        <div class="navigation-area intro-element">
+            <ul class="navigation-ul">
+                <li class="navigation-li">
+                    <a href="#about" class="navigation-a section-post">
+                        <span class="icon"><img src="images/icons/Outer Space Outline_Galaxy.png" alt=""></span>
+                        <span class="text">About <img src="images/icons/Outer Space Outline_Galaxy.png" alt=""></span>
+                    </a>
+                </li>
+                <!-- <li class="navigation-li">
+                    <a href="#team" class="navigation-a section-post">
+                        <span class="icon"><i class="icon-user"></i></span>
+                        <span class="text">Team <i class="fas fa-sort-down"></i></span>
+                    </a>
+                </li> -->
+                <li class="navigation-li">
+                    <a href="#services" class="navigation-a section-post">
+                        <span class="icon"><img src="images/icons/Outer Space Outline_Comet.png" alt=""></span>
+                        <span class="text">Tokenomics <img src="images/icons/Outer Space Outline_Comet.png" alt=""></span>
+                    </a>
+                </li>
+                <li class="navigation-li">
+                    <a href="#roadmap" class="navigation-a section-post">
+                        <span class="icon"><img src="images/icons/Outer Space Outline_Flag.png" alt=""></span>
+                        <span class="text">Roadmap <img src="images/icons/Outer Space Outline_Flag.png" alt=""></span>
+                    </a>
+                </li>
+                <li class="navigation-li">
+                    <a href="#contact" class="navigation-a section-post">
+                        <span class="icon"><img src="images/icons/Outer Space Outline_Space Ship.png" alt=""></span>
+                        <span class="text">Benefits <img src="images/icons/Outer Space Outline_Space Ship.png" alt=""></span>
+                    </a>
+                </li>
+                <li class="navigation-li">
+                    <a href="#terms" class="navigation-a section-post">
+                        <span class="icon"><img src="images/icons/terms.png" alt=""></span>
+                        <span class="text">Terms <img src="images/icons/terms.png" alt=""></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- ************** END : NAVIGATION **************  -->
+
+        <!--
+        ************************************************************
+        * HOME AREA
+        *************************************************************
+        -->
+        <div class="home-area intro-section flex-cc" data-ckav-smd="padding-b-0 flex-cc">
+
+            <!-- PARTICLE EFFECT -->
+            <div class="full-wh full-wh zindex-1">
+                <div class="height-100" id="particles-js"></div>
+            </div>
+
+            <div class="container zindex-1 intro-element">
+
+                <!-- INTRO TEXT -->
+                <div class="intro-text typo-light align-center">
+                    <h2 class="heading xlarge bold-900 text-upper" data-ckav-smd="large">PIG Community</h2>
+                    <p class="heading-sub width-60 margin-auto" data-ckav-smd="width-100 mini">
+                        Pig was the first blackhole token that went to a 3B$ market cap valuation but more importantly it had the best community of fellow friends and followers.
+                      <br>  We’ve now brought back the nostalgia with a 1st rate community (come join our family!) and a pig fat roadmap to relive the good old days and hit new heights together!
+                        
+                    </p>
+                    <a href="#" style="background-color: #f199bb;" class=" button button-xlarge color-button-white color-hov-button-white solid radius-10" >Buy Now</a>
+                    <a href="#" class=" button button-xlarge color-button-white color-hov-button-white solid radius-10" >Telegram</a>
+                </div>
+
+            </div>
+
+            <!--=================================
+            = BACKGROUND HOLDER
+            ==================================-->
+            <div class="bg-holder zindex-0">
+                
+                <!-- OVERLAY -->
+                <b data-bgholder="overlay" class="full-wh zindex-2" data-radial-gradient="rgba(0,0,0, 0.3)|rgba(244, 173, 73, 0.6)"></b>
+                
+                <!-- BACKGROUND IMAGE -->
+                <b data-bgholder="background-image" class="full-wh bg-cover bg-cc zindex-1" data-bg-image="images/bg-03.jpg"></b>
+                
+            </div>
+            <!-- ======= END : BACKGROUND HOLDER =======  -->
+
+        </div>
+        <!-- ************** END : HOME AREA **************  -->
+
+         <!--
+        ************************************************************
+        * SOCIAL AREA
+        *************************************************************
+        -->
+        <div class="social-area intro-element">
+            <a href="#social" class="section-post button button-icon color-button-white border-op-light-2 radius-full"><i class="icon-share"></i></a>
+        </div>
+        <!-- ************** END : SOCIAL AREA **************  -->
+
+        <!--
+        ************************************************************
+        * POP UP WRAPPER
+        *************************************************************
+        -->
+        <div class="popup-area">
+
+            <!--=================================
+            = POPUP OVERLAY
+            ==================================-->
+            <div class="popup-overlay" data-bg-color="rgba(0,0,0,0.8)">
+
+            </div>
+            <!-- ======= END : POPUP OVERLAY =======  -->
+
+            <!--=================================
+            = ABOUT SECTION
+            ==================================-->
+            <div id="about" class="popup-section about-section typo-light">
+                
+                <!-- CLOSE BUTTON -->
+                <div class="close-section">
+                    <a href="#" class="button button-icon color-button-white fs-30 border-op-light-2 radius-full"><i class="pe-7s-close"></i></a>
+                </div>
+
+                <div class="inner-section animated" data-anim-in="fadeIn" data-anim-out="fadeOut">
+                    <div class="container">
+                        
+                        <div class="row align-items-center gt60">
+                            <div class="col-lg-6">
+                                <div class="image-wrapper animated" data-anim-in="fadeInRight" data-ckav-smd="margin-b-30">
+                                    <img class="radius-10" src="images/half-bg-01.jpg" alt="about image">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="section-heading-wrapper" data-ckav-smd="align-center">
+                                    <h2 class="heading-section text-upper default bold-900 animated pigcf" data-anim-in="fadeInUp" data-ckav-smd="medium">About PigClassic</h2>
+                                    <p class="heading-section-sub small margin-b-0 animated" data-anim-in="fadeInUp|0.1" data-ckav-smd="mini">
+                                        PIGC runs on Binance Smart Chain. As the community, we knew this would be an instant classic because we wanted to keep all of the original best characteristics of PIG while improving upon the token & its features : a deflationary black hole that exponentially reduces the supply and a more effective liquidity pool-adding component to keep it on an ever-growing sustainable trajectory to absorb whale plays.
+
+
+                                   
+                                    </p>
+                                </div>
+                                <hr class="color-border-default margin-tb-30 width-px-50 margin-l-0 border-t-2 animated" data-anim-in="fadeInUp|0.2" data-ckav-smd="margin-auto">
+                                <p class="heading-section-sub small margin-b-0 animated" data-anim-in="fadeInUp|0.1" data-ckav-smd="mini">
+                                    Best of all, and what made the original token so amazing in the first place, is that Pig Classic is made by the same community members including your favorite diamond handed whales.
+                                    We are are all hardcore supporters of decentralization and collaboration.
+                                    Put everything together, and you have one unstoppable force of a community.
+                                    
+                                      
+                                </p>
+                            
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- ======= END : ABOUT SECTION =======  -->
+
+            <!--=================================
+            = TEAM SECTION
+            ==================================-->
+        
+            <!-- ======= END : TEAM SECTION =======  -->
+
+            <!--=================================
+            = SERVICES SECTION
+            ==================================-->
+            <div id="services" class="popup-section services-section typo-light">
+                
+                <!-- CLOSE BUTTON -->
+                <div class="close-section">
+                    <a href="#" class="button button-icon color-button-white fs-30 border-op-light-2 radius-full"><i class="pe-7s-close"></i></a>
+                </div>
+
+                <div class="inner-section animated" data-anim-in="fadeIn" data-anim-out="fadeOut">
+                    <div class="container">
+                        
+                        <div class="row align-items-center gt60">
+                            <div class="col-lg-8">
+                                <div class="row gt10 margin-b-10" data-ckav-smd="margin-b-0">
+                                    <div class="col-lg-6 animated" data-anim-in="fadeInUp|0.1" data-ckav-smd="margin-b-30">
+                                        <div class="info-obj radius-10 margin-b-0 center info-box-01 img-t padding-40 gap-20 mini ">
+                                            <!-- <div class="img"><span class="iconwrp color-text-white"><i class="pe-7s-rocket"></i></span></div> -->
+                                            <div class="info">
+                                                <h3 class="heading-content bold-700 text-upper margin-b-10  pigcf">5% BUY TAX</h3>
+                                                <hr class="color-border-default margin-tb-30 width-px-50 margin-l-0 border-t-2 animated" data-anim-in="fadeInRight|0.2" data-ckav-smd="margin-auto margin-tb-20">
+                                                <h3 class="heading-content bold-700 text-upper margin-b-10  pigcf">4% LP</h3>
+                                                <h3 class="heading-content bold-700 text-upper margin-b-10  pigcf">1.5% Development</h3>
+                                                <h3 class="heading-content bold-700 text-upper margin-b-10  pigcf">0.5% Holders</h3>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 animated" data-anim-in="fadeInUp|0.2" data-ckav-smd="margin-b-30">
+                                        <div class="info-obj radius-10 margin-b-0 center info-box-01 img-t padding-40 gap-20 mini ">
+                                            <!-- <div class="img"><span class="iconwrp color-text-white"><i class="pe-7s-display2"></i></span></div> -->
+                                            <div class="info">
+                                                <h3 class="heading-content bold-700 text-upper margin-b-10  pigcf">8% SELL TAX</h3>
+                                                <hr class="color-border-default margin-tb-30 width-px-50 margin-l-0 border-t-2 animated" data-anim-in="fadeInRight|0.2" data-ckav-smd="margin-auto margin-tb-20">
+                                                <h3 class="heading-content bold-700 text-upper margin-b-10  pigcf">6% LP</h3>
+                                                <h3 class="heading-content bold-700 text-upper margin-b-10  pigcf">1% Development</h3>
+                                                <h3 class="heading-content bold-700 text-upper margin-b-10  pigcf">1% Holders</h3>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- <div class="row gt10">
+                                    <div class="col-lg-6 animated" data-anim-in="fadeInUp|0.3" data-ckav-smd="margin-b-30">
+                                        <div class="info-obj radius-10 margin-b-0 center info-box-01 img-t padding-40 gap-20 mini ">
+                                            <div class="img"><span class="iconwrp color-text-white"><i class="pe-7s-rocket"></i></span></div>
+                                            <div class="info">
+                                                <h3 class="heading-content bold-700 text-upper margin-b-10  pigcf"></h3>
+                                              
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 animated" data-anim-in="fadeInUp|0.4" data-ckav-smd="margin-b-30">
+                                        <div class="info-obj radius-10 margin-b-0 center info-box-01 img-t padding-40 gap-20 mini ">
+                                            <div class="img"><span class="iconwrp color-text-white"><i class="pe-7s-display2"></i></span></div>
+                                            <div class="info">
+                                                <h3 class="heading-content bold-700 text-upper margin-b-10  pigcf"></h3>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="col-lg-4" data-ckav-smd="margin-t-30">
+                                <div class="section-heading-wrapper" data-ckav-smd="align-center">
+                                    <h2 class="heading-section text-upper default bold-900 animated pigcf" data-anim-in="fadeInRight|0.1" data-ckav-smd="medium">TOKENOMICS</h2>
+                                    <p class="heading-section-sub small margin-b-0 animated" data-anim-in="fadeInRight|0.1" data-ckav-smd="mini">
+                                        PIGC has a buy tax of 5%, where 4% goes to the LP, 1.5% goes for continued development, and 0.5% goes to the holders, and a sell tax of 8%, where 6% goes to the LP, 1% for continued development, and 1% to the holders.
+
+                                        
+                                    </p>
+                                </div>
+                                <hr class="color-border-default margin-tb-30 width-px-50 margin-l-0 border-t-2 animated" data-anim-in="fadeInRight|0.2" data-ckav-smd="margin-auto margin-tb-20">
+                                <p class="heading-section-sub small margin-b-0 animated" data-anim-in="fadeInRight|0.1" data-ckav-smd="mini">
+
+                                    Like the original PIG’s community, we do not believe in team allocations, presales, or VC seed funding since these are anti-decentralization. And since PIGC is fully community-owned, it’s been stealth launched to be fair for everyone, with all the circulating supply listed on PancakeSwap. 50% of the supply has also been burned to create the black hole that will exponentially reduce supply.
+
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- ======= END : SERVICES SECTION =======  -->
+
+            <!--=================================
+            = PORTFOLIO SECTION
+            ==================================-->
+            <div id="roadmap" class="popup-section portfolio-section typo-light">
+
+   <!-- CLOSE BUTTON -->
+   <div class="close-section">
+    <a href="#" class="button button-icon color-button-white fs-30 border-op-light-2 radius-full"><i class="pe-7s-close"></i></a>
+</div>
+
+<div class="inner-section animated" data-anim-in="fadeIn" data-anim-out="fadeOut">
+    <div class="container">
+        
+        <div class="section-heading-wrapper align-center width-px-700 margin-auto" data-ckav-smd="width-100">
+            <h2 class="heading-section text-upper default bold-900 animated pigcf" data-anim-in="fadeInUp" data-ckav-smd="medium">ROADMAP TO GREATNESS</h2>
+            <p class="heading-section-sub small margin-b-0 animated" data-anim-in="fadeInUp|0.1" data-ckav-smd="mini">
+                As a community, we decide the direction of PIGC. These are our plans, and we welcome you to join us to do this together!
+
+            </p>
+        </div>
+
+        <div class="carousel-widget carouselnav-1 zoom-carousel large padding-b-0 width-90 margin-auto animated" data-anim-in="fadeIn|0.2" data-ckav-smd="width-100 align-center" 
+        data-carousel-items="1"
+        data-carousel-itemrange="0,1|420,1|600,2|768,3|992,3|1200,3"
+        data-carousel-autoplay="true" 
+        data-carousel-margin="30" 
+        data-carousel-loop="true"
+        data-carousel-nav="true"
+        data-carousel-dots="true"
+        data-carousel-center="true">
+            <div class="owl-carousel">
+                
+                <!-- ITEM -->
+                <div class="item">
+                    <div class="inneritem">
+
+                        <div class="hover-box teambox radius-10 teambox-02 hover-box-01">
+                            <!-- OVERLAY -->
+                            <div class="overlay flex-bl radius-10 typo-light" data-linear-gradient="rgba(31,34,41,0.5)|rgba(31,34,41,1)">
+                                <div class="info-text text-center">
+                                    <em class="fs12 color-text-white margin-b-5">~</em>
+                                    <h3 class="heading-content mini bold-600 margin-0">Audit</h3>
+                                    <div class="social-links margin-t-20">   
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- IMAGE -->
+                            <img class="radius-10" src="images/400x500-01.jpg" alt="portfolio image">
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ITEM -->
+                <div class="item">
+                    <div class="inneritem">
+
+                        <div class="hover-box teambox radius-10 teambox-02 hover-box-01">
+                            <!-- OVERLAY -->
+                            <div class="overlay flex-bl radius-10 typo-light" data-linear-gradient="rgba(31,34,41,0.5)|rgba(31,34,41,1)">
+                                <div class="info-text text-center">
+                                    <em class="fs12 color-text-white margin-b-5">~</em>
+                                    <h3 class="heading-content mini bold-600 margin-0">Farming & One-Sided Staking
+                                    </h3>
+                                    <div class="social-links margin-t-20">   
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- IMAGE -->
+                            <img class="radius-10" src="images/400x500-02.jpg" alt="portfolio image">
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ITEM -->
+                <div class="item">
+                    <div class="inneritem">
+
+                        <div class="hover-box teambox radius-10 teambox-02 hover-box-01">
+                            <!-- OVERLAY -->
+                            <div class="overlay flex-bl radius-10 typo-light" data-linear-gradient="rgba(31,34,41,0.5)|rgba(31,34,41,1)">
+                                <div class="info-text text-center">
+                                    <em class="fs12 color-text-white margin-b-5">~</em>
+                                    <h3 class="heading-content mini bold-600 margin-0">Marketing <br/> (billboards, news publishers)
+                                    </h3>
+                                    <div class="social-links margin-t-20">   
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- IMAGE -->
+                            <img class="radius-10" src="images/400x500-03.jpg" alt="portfolio image">
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- ITEM -->
+                <div class="item">
+                    <div class="inneritem">
+
+                        <div class="hover-box teambox radius-10 teambox-02 hover-box-01">
+                            <!-- OVERLAY -->
+                            <div class="overlay flex-bl radius-10 typo-light" data-linear-gradient="rgba(31,34,41,0.5)|rgba(31,34,41,1)">
+                                <div class="info-text text-center">
+                                    <em class="fs12 color-text-white margin-b-5">~</em>
+                                    <h3 class="heading-content mini bold-600 margin-0">CEX Listings
+                                    </h3>
+                                    <div class="social-links margin-t-20">   
+                                        
+                                        
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- IMAGE -->
+                            <img class="radius-10" src="images/400x500-04.jpg" alt="portfolio image">
+                        </div>
+
+                    </div>
+                </div>
+                       <!-- ITEM -->
+                       <div class="item">
+                        <div class="inneritem">
+    
+                            <div class="hover-box teambox radius-10 teambox-02 hover-box-01">
+                                <!-- OVERLAY -->
+                                <div class="overlay flex-bl radius-10 typo-light" data-linear-gradient="rgba(31,34,41,0.5)|rgba(31,34,41,1)">
+                                    <div class="info-text text-center">
+                                        <em class="fs12 color-text-white margin-b-5">plan update</em>
+                                        <h3 class="heading-content mini bold-600 margin-0">LEVEL UP 
+                                        </h3>
+                                        <div class="social-links margin-t-20">   
+                                            
+                                            
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <!-- IMAGE -->
+                                <img class="radius-10" src="images/400x500-05.jpg" alt="portfolio image">
+                            </div>
+    
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+                
+            </div>
+            <!-- ======= END : PORTFOLIO SECTION =======  -->
+
+            <!--=================================
+            = CONTACT SECTION
+            ==================================-->
+            <div id="contact" class="popup-section contact-section typo-light">
+                
+                <!-- CLOSE BUTTON -->
+                <div class="close-section">
+                    <a href="#" class="button button-icon color-button-white fs-30 border-op-light-2 radius-full"><i class="pe-7s-close"></i></a>
+                </div>
+
+                <div class="inner-section animated" data-anim-in="fadeIn" data-anim-out="fadeOut">
+                    <div class="container">
+                        
+                        <div class="row gt60 align-items-center">
+                            <div class="container">
+                                <h2 class="heading-section text-upper default bold-900  pigcf"></h2>
+
+                                    <div class="col-lg-12">
+                                        <div class="section-heading-wrapper" data-ckav-smd="align-center">
+                                            <h2 class="heading-section text-upper default bold-900 animated pigcf" data-anim-in="fadeInUp" data-ckav-smd="medium">THE COMMUNITY BENEFITS MOST:</h2>
+                                            <h2 class="pigcf">No Presale</h2>
+                                            <p class="heading-section-sub small margin-b-0 animated" data-anim-in="fadeInUp|0.1" data-ckav-smd="mini">
+                                                Without a presale or a whitelist, no one receives an unfair advantage by buying at preferential under-the-market prices before the launch.
+
+                                            </p>
+                                        </div>
+                                        <hr class="color-border-default margin-tb-30 width-px-50 margin-l-0 border-t-2 animated" data-anim-in="fadeInUp|0.2" data-ckav-smd="margin-auto">
+                                        <h2 class="pigcf">Fully Decentralized
+                                        </h2>
+                                        <p class="heading-section-sub small margin-b-0 animated" data-anim-in="fadeInUp|0.1" data-ckav-smd="mini">
+                                            The community owns the token, not a team or a dev, which is why there are no team tokens and all of the circulating supply is listed on PancakeSwap.
+
+
+
+                                        </p>
+                                        <hr class="color-border-default margin-tb-30 width-px-50 margin-l-0 border-t-2 animated" data-anim-in="fadeInUp|0.2" data-ckav-smd="margin-auto">
+                                        <h2 class="pigcf">Rising Liquidity
+
+                                        </h2>
+                                        <p class="heading-section-sub small margin-b-0 animated" data-anim-in="fadeInUp|0.1" data-ckav-smd="mini">
+                                            With every transaction, a whopping 4% to 6% goes to the LP depending on whether it’s a sell or a buy. This not only increases the BNB in the pool, it increases the floor price!
+
+
+                                        </p>
+                                    
+                                        <hr class="color-border-default margin-tb-30 width-px-50 margin-l-0 border-t-2 animated" data-anim-in="fadeInUp|0.2" data-ckav-smd="margin-auto">
+                                        <h2 class="pigcf">Strong-Handed Whale Community
+
+                                        </h2>
+                                        <p class="heading-section-sub small margin-b-0 animated" data-anim-in="fadeInUp|0.1" data-ckav-smd="mini">
+                                            Many of the whales of the original token have very strong hands, and they believe in and support PIGC’s vision, too.
+
+                                            <br/>
+                                            <br/>
+                                            100% Rug Proof <br/>
+                                            The liquidity is burned forever and the ownership of the contract renounced. No minting, no trade locking, no bullshit.
+
+                                            
+                                        </p>
+                                    
+                                  
+                                    
+                                    
+                                    </div>
+                              
+                                <!-- <div class="accordion">
+                                  <div class="accordion-item">
+                                    <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">Why is the moon sometimes out during the day?</span><span class="icon" aria-hidden="true"></span></button>
+                                    <div class="accordion-content">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">Why is the sky blue?</span><span class="icon" aria-hidden="true"></span></button>
+                                    <div class="accordion-content">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">Will we ever discover aliens?</span><span class="icon" aria-hidden="true"></span></button>
+                                    <div class="accordion-content">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">How much does the Earth weigh?</span><span class="icon" aria-hidden="true"></span></button>
+                                    <div class="accordion-content">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                    </div>
+                                  </div>
+                                  <div class="accordion-item">
+                                    <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">How do airplanes stay up?</span><span class="icon" aria-hidden="true"></span></button>
+                                    <div class="accordion-content">
+                                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                                    </div>
+                                  </div>
+                                </div> -->
+                              </div>
+                            
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- ======= END : CONTACT SECTION =======  -->
+            <div id="terms" class="popup-section contact-section typo-light">
+                
+                <!-- CLOSE BUTTON -->
+                <div class="close-section">
+                    <a href="#" class="button button-icon color-button-white fs-30 border-op-light-2 radius-full"><i class="pe-7s-close"></i></a>
+                </div>
+
+                <div class="inner-section animated" data-anim-in="fadeIn" data-anim-out="fadeOut">
+                    <div class="container">
+                        
+                        <div class="row gt60 align-items-center">
+                            <div class="container">
+                                <h2 class="heading-section text-upper default bold-900  pigcf"></h2>
+
+                                    <div class="col-lg-12">
+                                        <div class="section-heading-wrapper" data-ckav-smd="align-center">
+                                            <h2 class="heading-section text-upper default bold-900 animated pigcf" data-anim-in="fadeInUp" data-ckav-smd="medium">
+                                          
+                                                
+                                                LEGAL DISCLAIMER </h2>
+                                            <h2 class="pigcf"></h2>
+                                            <p class="heading-section-sub small margin-b-0 animated" data-anim-in="fadeInUp|0.1" data-ckav-smd="mini">
+                                                
+None of the information on this website should be construed as providing legal or financial advice.
+Please note there are always risks associated with smart contracts. Please use at your own risk.
+ PIGC Token is not a registered broker, analyst or investment advisor. If you are willing to, or have purchased PIGC, you agree that you are not purchasing a security or investment.
+  The PIG team can not be held liable for any losses or taxes you may incur. 
+  You also agree that the team is presenting the token as it was launched, due to it being renounced it can not be changed. 
+  Do conduct your own due diligence and consult your financial advisor before making any investment decisions.
+
+                                            </p>
+                                        </div>
+                                        <hr class="color-border-default margin-tb-30 width-px-50 margin-l-0 border-t-2 animated" data-anim-in="fadeInUp|0.2" data-ckav-smd="margin-auto">
+                                      
+                                    
+                                    </div>
+                              
+                              </div>
+                            
+                            
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--=================================
+            = SOCIAL SECTION
+            ==================================-->
+            <div id="social" class="popup-section social-section typo-light">
+                
+                <!-- CLOSE BUTTON -->
+                <div class="close-section">
+                    <a href="#" class="button button-icon color-button-white fs-30 border-op-light-2 radius-full"><i class="pe-7s-close"></i></a>
+                </div>
+
+                <div class="inner-section animated" data-anim-in="fadeIn" data-anim-out="fadeOut">
+                    <div class="container">
+                        
+                        <div class="row">
+                           
+
+                            <div class="col align-center animated" data-anim-in="fadeInUp|0.2" data-ckav-smd="margin-b-30">
+                                <a href="#" class="button button-icon-xlarge color-button-white border-op-light-2 radius-10"><i class="fab fa-twitter"></i></a>
+                            </div>
+
+                            <div class="col align-center animated" data-anim-in="fadeInUp|0.3" data-ckav-smd="margin-b-30">
+                                <a href="#" class="button button-icon-xlarge color-button-white border-op-light-2 radius-10"><i class="fab fa-telegram"></i></a>
+                            </div>
+
+                            
+                            <div class="col align-center animated" data-anim-in="fadeInUp|0.5" data-ckav-smd="margin-b-30">
+                                <a href="#" class="button button-icon-xlarge color-button-white border-op-light-2 radius-10"><i class="fab fa-medium"></i></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- ======= END : SOCIAL SECTION =======  -->
+
+        </div>
+        <!-- ************** END : POP UP WRAPPER **************  -->
+
+        <!--
+        ************************************************************
+        * FOOTER
+        *************************************************************
+        -->
+        <div class="footer-area intro-element">
+            <div class="container">
+                <p class="c-text">                
+                    <a  class="c-text" href="#" target="_blank">Join Us</a> PIGC © <script>document.write(new Date().getFullYear());</script>
+                </p>
+            </div>
+            
+        </div>
+        <!-- ************** END : FOOTER **************  -->
+
+       
+
+    </div>
+    
+<!-- COMMON VENDOR SCRIPTS -->
+<script src="vendor/jquery/jquery-3.3.1.min.js"></script>
+<script src="vendor/jquery/jquery-migrate-3.0.0.min.js"></script>
+<script src="vendor/popper/umd/popper.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="vendor/jquery-validation/jquery.validate.min.js"></script>
+<script src="vendor/sweetalert/sweetalert2.min.js"></script>
+<script src="vendor/jarallax/jarallax.min.js"></script>
+<script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+<script src="vendor/swiper/js/swiper.min.js"></script>
+<script src="vendor/jQuery-viewport-checker/jquery.viewportchecker.min.js"></script>
+<script src="vendor/enquire/enquire.min.js"></script>
+<script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="vendor/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="vendor/isotope/isotope.pkgd.min.js"></script>
+<script src="vendor/isotope/packery-mode.pkgd.min.js"></script>
+
+<!-- PAGE SPECIFIC VENDOR SCRIPTS -->
+<script src="vendor/particle-animation/particles.min.js"></script>	
+<script src="vendor/particle-animation/partical-animation.js"></script>	
+
+<!--  COMMON SCRIPTS -->
+<script src="js/ckav-main.js"></script>
+
+<script>
+    const items = document.querySelectorAll(".accordion button");
+
+function toggleAccordion() {
+  const itemToggle = this.getAttribute('aria-expanded');
+  
+  for (i = 0; i < items.length; i++) {
+    items[i].setAttribute('aria-expanded', 'false');
+  }
+  
+  if (itemToggle == 'false') {
+    this.setAttribute('aria-expanded', 'true');
+  }
+}
+
+items.forEach(item => item.addEventListener('click', toggleAccordion));
+</script>
+</body>
+</html>
